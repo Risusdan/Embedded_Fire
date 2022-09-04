@@ -380,22 +380,37 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>src</GroupName>
           <Files>
-            <File>
-              <FileName>startup_stm32f10x_hd.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\standard_src\0-STM32F10x_StdPeriph_Lib_V3.5.0\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s</FilePath>
-            </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>include</GroupName>
+          <Files>
             <File>
               <FileName>stm32f10x.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\stm32f10x.h</FilePath>
+            </File>
+            <File>
+              <FileName>marco.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\marco.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>startup</GroupName>
+          <Files>
+            <File>
+              <FileName>startup_stm32f10x_hd.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\startup_stm32f10x_hd.s</FilePath>
             </File>
           </Files>
         </Group>
